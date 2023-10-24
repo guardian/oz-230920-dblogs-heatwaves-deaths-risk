@@ -14,7 +14,7 @@ from sudulunu.helpers import pp, make_num, dumper, rc
 
 # %%
 
-fillo = 'input/AIHW_INJCAT213_Data_tables_E_06072023.xlsx'
+fillo = '../input/AIHW_INJCAT213_Data_tables_E_06072023.xlsx'
 
 data = pd.read_excel(fillo, sheet_name='E31-33 Nature', skiprows=2)
 ['Unnamed: 0', 'ICD-10 code', 'Unnamed: 2', '0–4', '5–14', '15–24', 
