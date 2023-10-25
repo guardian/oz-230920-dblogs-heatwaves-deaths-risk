@@ -48,7 +48,7 @@ final = bye.to_dict(orient='records')
 template = [
 	{
 	"title": "Deaths from natural hazards between 1900 and 2011",
-	"subtitle": "Showing the numbers of deaths by the type of natural hazard. Data is based on media reports",
+	"subtitle": "Showing the numbers of deaths by the type of natural hazard",
 	"footnote": "",
 	"source": "PerilAus, Coates et al 2014, Journal of Environmental Science and Policy",
 	"margin-left": "20",
@@ -65,5 +65,5 @@ chart_key = f"oz-datablogs-heat-risk-deaths-peril-aus-all{testo}"
 yachtCharter(template=template, 
 			data=final,
 			chartId=[{"type":"horizontalbar"}],
-            options=[{"enableShowMore":"FALSE", "autoSort":"FALSE"}],
+            options=[{"enableShowMore":"TRUE", "autoSort":"FALSE"}],
 			chartName=f"{chart_key}")
