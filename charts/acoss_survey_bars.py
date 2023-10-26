@@ -47,7 +47,7 @@ final = bye.to_dict(orient='records')
 template = [
 	{
 	"title": "74% of people on income support are cutting back on cooling and heating",
-	"subtitle": "Showing what actions are being taken by people on income support due to rising energy costs. Based on a survey of 427 in August 2023",
+	"subtitle": "Showing what actions are being taken by people on income support due to rising energy costs. Based on a survey of 427 people in August 2023",
 	"footnote": "",
 	"source": "ACOSS",
 	"margin-left": "20",

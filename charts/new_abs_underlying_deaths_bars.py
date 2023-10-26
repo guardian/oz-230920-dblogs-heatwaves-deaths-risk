@@ -85,7 +85,7 @@ final = bye.to_dict(orient='records')
 template = [
 	{
 	"title": "Heat was one of the leading underlying cause of death among 'natural forces' in 2002-2021",
-	"subtitle": "Showing only data where the underlying cause of death was a natural force (x30-x39) according to the International Classification of Diseases (ICD-10). The categories are not directly comparable to some of the other charts that use different classifications. 'Other natural forces' includes avalanches, landslides, volcanos, earthquakes and the otherwise unspecified.",
+	"subtitle": "Showing only data where the underlying cause of death was a natural force (codes x30-x39) according to the International Classification of Diseases (ICD-10). The categories are not directly comparable to some of the other charts that use different classifications. 'Other natural forces' includes avalanches, landslides, volcanos, earthquakes and the otherwise unspecified.",
 	"footnote": "",
 	"source": "Australian Bureau of Statistics",
 	"margin-left": "20",

@@ -44,7 +44,7 @@ bye.loc[bye['IRSAD Decile'].isin(['1 (most disadvantaged)', '2', '3', '4', '5'])
 final = bye.to_dict(orient='records') 
 template = [
 	{
-	"title": "More than 60% of heatwave deaths were in the top 50% most socio-economically disadvantaged areas",
+	"title": "More than 60% of heatwave deaths were in the most socio-economically disadvantaged areas",
 	"subtitle": "Showing heatwave deaths between 2001 to 2018 by socio-economic (IRSAD) decile of the area",
 	"footnote": "",
 	"source": "Risk Frontiers, Coates et al.",
