@@ -46,7 +46,7 @@ pp(bye)
 final = bye.to_dict(orient='records') 
 template = [
 	{
-	"title": "69% of heatwave deaths were in the 60+ age group",
+	"title": "Almost 70% of heatwave deaths were in the 60+ age group",
 	"subtitle": "Showing heatwave deaths between 2001 to 2018 by age group, where age is known",
 	"footnote": "",
 	"source": "Risk Frontiers, Coates et al.",
